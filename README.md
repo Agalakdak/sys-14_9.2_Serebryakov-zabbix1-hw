@@ -6,7 +6,7 @@
 
 Приложите скриншот авторизации в админке. Приложите текст использованных команд в GitHub.
 ---
-![Скриншот авторизации в админке] ./img/zabbix_login.jpeg
+![Скриншот авторизации в админке] https://github.com/Agalakdak/sys-14_9.2_Serebryakov-zabbix1-hw/tree/main/img/zabbix_login.jpeg
 
 ---
 Для установки Zabbix-server, я использовал команды представленные в лекции + сравнивал их с командами предложенными на официальном сайте.
@@ -47,15 +47,15 @@ systemctl enable zabbix-server apache2 # zabbix-agent
 #### Установите Zabbix Agent на два хоста.
 #### Приложите скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу. Приложите скриншот лога zabbix agent, где видно, что он работает с сервером. Приложите скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные. Приложите текст использованных команд в GitHub.
 
-![Раздел Configuration > Hosts] ./img/zabbix_hosts.jpeg
+![Раздел Configuration > Hosts] https://github.com/Agalakdak/sys-14_9.2_Serebryakov-zabbix1-hw/tree/main/img/zabbix_hosts.jpeg
 
-![Лог zabbix-agent vm1] ./img/zabbix_host_vm1_log_agent.jpeg
-![Лог zabbix-agent nout] ./img/zabbix_host_nout_log_agent.jpeg
+![Лог zabbix-agent vm1] https://github.com/Agalakdak/sys-14_9.2_Serebryakov-zabbix1-hw/tree/main/img/zabbix_host_vm1_log_agent.jpeg
+![Лог zabbix-agent nout] https://github.com/Agalakdak/sys-14_9.2_Serebryakov-zabbix1-hw/tree/main/img/zabbix_host_nout_log_agent.jpeg
 
-![Monitoring > latest data vm1 и nout] ./img/zabbix_monitoring_latest_data.png
-![Monitoring > latest nout] ./img/zabbix_monitoring_latest_data_more_info.png
-![Лог агента vm1] ./img/zabbix_host_vm1_log_agent.jpeg
-![Лог агента nout] ./img/zabbix_host_nout_log_agent.jpeg
+![Monitoring > latest data vm1 и nout] https://github.com/Agalakdak/sys-14_9.2_Serebryakov-zabbix1-hw/tree/main/img/zabbix_monitoring_latest_data.png
+![Monitoring > latest nout] https://github.com/Agalakdak/sys-14_9.2_Serebryakov-zabbix1-hw/tree/main/img/zabbix_monitoring_latest_data_more_info.png
+![Лог агента vm1] https://github.com/Agalakdak/sys-14_9.2_Serebryakov-zabbix1-hw/tree/main/img/zabbix_host_vm1_log_agent.jpeg
+![Лог агента nout] https://github.com/Agalakdak/sys-14_9.2_Serebryakov-zabbix1-hw/tree/main/im/zabbix_host_nout_log_agent.jpeg
  
 
 
