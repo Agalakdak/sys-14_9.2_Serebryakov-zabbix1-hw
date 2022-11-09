@@ -1,11 +1,11 @@
 # Домашнее задание к занятию "9.2. Zabbix. Часть 1" - `Серебряков Руслан`
 
-### Задание 1
+## Задание 1
 
-####Установите Zabbix Server с веб-интерфейсом.
+###Установите Zabbix Server с веб-интерфейсом.
 
 Приложите скриншот авторизации в админке. Приложите текст использованных команд в GitHub.
----
+
 ![Скриншот авторизации в админке](https://github.com/Agalakdak/sys-14_9.2_Serebryakov-zabbix1-hw/tree/main/img/zabbix_login.jpeg)
 
 Для установки Zabbix-server, я использовал команды представленные в лекции + сравнивал их с командами предложенными на официальном сайте.
@@ -39,14 +39,13 @@ sudo nano /etc/zabbix/zabbix_server.conf
 sudo systemctl restart zabbix-server apache2 # zabbix-agentsudo 
 Добавляем в автозапуск
 systemctl enable zabbix-server apache2 # zabbix-agent
----
 
-### Задание2 
+## Задание2 
 
-#### Установите Zabbix Agent на два хоста.
-#### Приложите скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу. Приложите скриншот лога zabbix agent, где видно, что он работает с сервером. Приложите скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные. Приложите текст использованных команд в GitHub.
+### Установите Zabbix Agent на два хоста.
+ Приложите скриншот раздела Configuration > Hosts, где видно, что агенты подключены к серверу. Приложите скриншот лога zabbix agent, где видно, что он работает с сервером. Приложите скриншот раздела Monitoring > Latest data для обоих хостов, где видны поступающие от агентов данные. Приложите текст использованных команд в GitHub.
 
-![Раздел Configuration > Hosts](https://github.com/Agalakdak/sys-14_9.2_Serebryakov-zabbix1-hw/tree/main/img/zabbix_hosts.jpeg)
+![Раздел Configuration > Hosts](img/zabbix_hosts.jpeg)
 
 ![Лог zabbix-agent vm1](https://github.com/Agalakdak/sys-14_9.2_Serebryakov-zabbix1-hw/tree/main/img/zabbix_host_vm1_log_agent.jpeg)
 ![Лог zabbix-agent nout](https://github.com/Agalakdak/sys-14_9.2_Serebryakov-zabbix1-hw/tree/main/img/zabbix_host_nout_log_agent.jpeg)
